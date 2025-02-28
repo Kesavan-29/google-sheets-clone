@@ -1,9 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import firebase from "firebase";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
-});
+const config = {
+  apiKey: "AIzaSyBQ-VO_nIonMjrDPvBDhTspEFDtVcW_EI4",
+  authDomain: "sheets-clone.firebaseapp.com",
+  databaseURL: "https://sheets-clone.firebaseio.com",
+  projectId: "sheets-clone",
+  storageBucket: "sheets-clone.appspot.com",
+  messagingSenderId: "538691737288"
+};
+firebase.initializeApp(config);
+
+export const db = firebase.database();
