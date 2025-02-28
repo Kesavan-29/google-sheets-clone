@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .logoContainer {
+    width: 64px;
+  }
+  
+  .mainSectionContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .sheetNameInput {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    color: black;
+    font-size: 18px;
+    font-variant-ligatures: no-contextual;
+    height: 20px;
+    line-height: 22px;
+    margin: 0;
+    min-width: 1px;
+    padding: 2px 7px;
+    width: 173px;
+  }
+  
+  .sheetNameInput::placeholder {
+    font-weight: 500;
+  }
+  
+  .sheetNameInput:hover {
+    border-color: #e5e5e5;
+  }
+  
+  .menuBarContainer {
+    display: flex;
+  }
+  
+  .menuItem {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #202124;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: 400;
+  }
+  
+  .menuItem:hover {
+    background-color: #f1f3f4;
+  }
+  
+  .savingIndicator {
+    color: #a3a3a3;
+    font-size: 13px;
+  }
+  
